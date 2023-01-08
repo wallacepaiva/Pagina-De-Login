@@ -1,0 +1,58 @@
+body {
+  background: #7b68ee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 450px;
+  height: 470px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titulo Login */
+h1 {
+  text-align: center;
+  color: #1c1c1c;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* email/senha e botão entrar */
+input,
+button {
+  margin: 10px 95px;
+  height: 60px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Email e Senha */
+input {
+  background-color: #d3d3d38f;
+}
+
+/* botão de entrar */
+button {
+  background-color: #7b68ee;
+  color: #fff;
+  margin: 0 93px auto;
+  cursor: pointer;
+}
+
+/* Esqueceu sua senha? */
+a {
+  text-align: center;
+  margin-bottom: 80px;
+  text-decoration: underline;
+  font-family: "roboto", sans-serif;
+  cursor: pointer;
+}
