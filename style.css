@@ -38,6 +38,7 @@ button {
 /* Email e Senha */
 input {
   background-color: #d3d3d38f;
+  outline: none;
 }
 
 /* botão de entrar */
@@ -46,6 +47,10 @@ button {
   color: #fff;
   margin: 0 93px auto;
   cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #3520a8;
 }
 
 /* Esqueceu sua senha? */
